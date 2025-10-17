@@ -1,0 +1,42 @@
+/* ProjectTemplates.module.css */
+
+.templatesSection {
+  padding: 4rem;
+  background-color: #f9f9f9;
+}
+
+.templatesHeading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 5rem;
+  text-align: left;
+}
+
+.templatesGrid {
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.templateCard {
+  text-align: center;
+}
+
+.templateImage {
+  max-width: 80%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.templateImage:hover {
+  transform: translateY(-6px);
+}
+
+.templateTitle {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
