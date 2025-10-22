@@ -13,7 +13,7 @@ export default function Navbar() {
         <li><Link href="#templates">Templates</Link></li>
         <li><Link href="#pricing">Pricing</Link></li>
         <li><Link href="#docs">Docs</Link></li>
-        <li><Link href="#contact">Contact</Link></li>
+        <li><Link href="/contact">Contact</Link></li>
       </ul>
 
       <div className={styles.actions}>
